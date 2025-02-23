@@ -1,3 +1,5 @@
+//Below is a nested loop example that graphically depicts an integer's magnitude by using asterisks, creating a "histogram." The inner loop is a for loop that handles the printing of the asterisks.
+//The outer loop is a while loop that handles executing until a negative number is entered.
 import java.util.Scanner;
 
 public class IntHistogram {
