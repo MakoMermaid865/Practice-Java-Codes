@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class IntegerManager {
+   public static void main(String[] args) {
+      ArrayList<Integer> intList = new ArrayList<Integer>();
+
+      intList.add(2);
+      intList.add(5);
+      intList.add(8);
+
+      intList.set(1, intList.get(1) - intList.get(0));
+      intList.set(2, intList.get(2) - intList.get(0));
+
+      System.out.println(intList.get(2) + " " + intList.get(0));
+   }
+}
+//The output is 
+//6 2 
